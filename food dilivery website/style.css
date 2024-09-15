@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+   
+
+ background-color: light;
+        color:black;
+        /* padding: 10px 10; */
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        z-index: 1000;
+}
+
+
+.logo{
+ 
+    margin: -5px 8px;
+}
+
+.logo img{
+/* height: 45px; */
+margin: 3px 4px;
+}
+
+
+
+ #navbar ul{
+    display: flex;
+}
+
+#navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar ul li{
+    /* padding: 19px 17px; */
+font-size: 1.6rem;
+    list-style: none;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 11px;
+    text-decoration: none;
+    color: aqua;
+}
+
+    #navbar ul li a:hover {
+        color: palegreen;
+        font-size: 1.8rem;
+        /* background-color: yellow; */
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+    #Home{
+        display: flex;
+        flex-direction: column;
+        padding: 3px 200px;
+        height: 559px;
+        
+        justify-content: center;
+        align-items:center;
+    }
+
+    #Home h1{
+        font-size: 3.4rem;
+        color:blanchedalmond;
+        background-color: transparent;
+        padding: 12px;
+        
+    
+    }
+ #Home h1:hover{
+    
+    font-size: 3.7rem;
+ }
+
+#service{
+    margin: 54px;
+    display: flex;
+    padding: -44px;
+}
+
+ #service .box{
+
+    border: 2px solid red;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 46px;
+    background: #f2f2f2;
+}
+
+
+#service .box img{
+
+ height: 156px;
+ margin: auto;
+ display: block;
+}
+
+#client-section{
+/* height: 244px; */
+position: relative;
+padding: 3px;
+}
+#client-section::before{
+    content: "" ;
+    position: absolute;
+    background: url('wp3495556.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+
+    }
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    padding: 44px;
+}
+
+
+#clients img{
+    height: 129px;
+}
+.h-primary{
+    font-size: 2.9rem;
+    padding: 0px 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+ .h-secondary{
+    font-size: 1.8rem;
+    padding: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorange;
+    
+ }
+    #Home p{
+        font-size: 1.7rem;
+        font-family:  'Arial Narrow Bold', sans-serif;
+        color: whitesmoke;
+        text-align: center;
+    }
+    #Home::before{
+        content: "";
+        background: url('basil-delicious-food-459469.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+    left: 0px;
+        height: 657px;
+        width: 100%;
+        z-index: -1;
+        opacity: 14;
+    /* background-repeat: no-repeat; */
+    
+    }
+     .btn{
+     padding: 6px 19px;
+     font-size: 1.3rem;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     cursor: pointer;
+     border-radius: 26px;
+     margin: 12px;
+     background-color: red;
+    }
+
+    .btn:hover{
+        font-size: 1.5rem;
+
+    }
+
+    .center{
+        text-align: center;
+    }
+
+
+    #contact{
+        position: relative;
+    }
+   
+    #contact h1{
+        text-align: center;
+        font-size: 2.1rem;
+        padding: 5px 12px;
+    }
+
+    
+#contact-box input,
+#contact-box textarea{
+    width: 98%;
+    /* height: 100%; */
+    padding: 0.5rem;
+}
+    
+
+    
+ #contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    background: url('contact-us-image.jpg') no-repeat center center/cover;
+ }
+
+ #email p{
+    color: black;
+    font-size: 1.2rem;
+    padding: 13px;
+ }
+#email p:hover{
+    font-size: 1.5rem;
+    color: blue;
+    
+}
+
+.form-group{
+    padding: 13px;
+}
+
+    
